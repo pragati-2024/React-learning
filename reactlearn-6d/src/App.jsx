@@ -10,7 +10,7 @@ function App() {
   })
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value } = e.target;// yahan destructuring hua h value ko object se extract krke new variable m assign kra hae
     setFormData((prev) => ({
       ...prev,
       [name]: value,
